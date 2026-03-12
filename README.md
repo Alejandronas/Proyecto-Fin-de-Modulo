@@ -1,6 +1,6 @@
 #  WeatherApp — Proyecto IAW
 
-Aplicación web desarrollada en **PHP** que consulta el tiempo meteorológico de cualquier ciudad del mundo usando la API de **OpenWeatherMap**. Incluye despliegue con **Docker** y persistencia de datos en **MariaDB**.
+En esta practica he creado una aplicación web desarrollada en **PHP** que consulta el tiempo meteorológico de cualquier ciudad del mundo usando la API de **OpenWeatherMap**. Incluye despliegue con **Docker** y persistencIa de datos en **MariaDB**.
 
 ---
 
@@ -82,7 +82,7 @@ Proyecto de PHP/
 
 ##  Base de datos
 
-La base de datos se llama `tiempo_db` y contiene 5 tablas:
+La base de dats se llama `tiempo_db` y contiene 5 tablas:
 
 ### `ciudades`
 Almacena las ciudades buscadas por el usuario.
@@ -160,7 +160,7 @@ El proyecto usa **Docker Compose** con 4 contenedores:
 
 ---
 
-##  Instalación y puesta en marcha
+##  Instalacion y puesta en marcha
 
 ### Requisitos previos
 - Docker Desktop instalado
@@ -197,7 +197,7 @@ docker-compose down
 
 ##  API Key
 
-La aplicación usa la API de **OpenWeatherMap**. La API Key está configurada en `models/WeatherAPI.php`.
+La aplicacion usa la API de **OpenWeatherMap**. La API Key está configurada en `models/WeatherAPI.php`.
 
 Para usar tu propia clave:
 1. Regístrate en [openweathermap.org](https://openweathermap.org)
