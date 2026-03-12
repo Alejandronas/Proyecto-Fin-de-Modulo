@@ -156,7 +156,7 @@ El proyecto usa **Docker Compose** con 4 contenedores:
 | tiempo_db | MariaDB 10.11 | 3306 (interno) |
 | tiempo_phpmyadmin | phpMyAdmin | 8081 |
 
-Todos los contenedores están en la red interna `tiempo_net`.
+
 
 ---
 
@@ -201,30 +201,19 @@ La aplicación usa la API de **OpenWeatherMap**. La API Key está configurada en
 
 Para usar tu propia clave:
 1. Regístrate en [openweathermap.org](https://openweathermap.org)
-2. Ve a tu perfil → API Keys
+2. Ve a tu perfil -> API Keys
 3. Sustituye la clave en `WeatherAPI.php`:
 
 ```php
 private $apiKey = 'TU_API_KEY_AQUI';
 ```
 
->  La previsión semanal requiere activar la **One Call API 3.0** (gratuita con tarjeta hasta 1000 llamadas/día).
 
 ---
 
-##  Paleta de colores
 
-| Color | Hex | Uso |
-|---|---|---|
-| Lime Cream | `#cbe896` | Fondos secundarios |
-| Ash Grey | `#aac0aa` | Navbar y footer |
-| Soft Peach | `#fcdfa6` | Tarjetas principales |
-| Dusty Taupe | `#a18276` | Textos y bordes |
-| Light Caramel | `#f4b886` | Badges y detalles |
-
----
 
 ##  Autor
 
-Proyecto realizado para el módulo **IAW** (Implantación de Aplicaciones Web)  
-CFGS Administración de Sistemas Informáticos en Red (**ASIR**)
+Proyecto realizado por Alejandro Sánchez Araujo para el módulo **IAW** (Implantación de Aplicaciones Web)  
+Administración de Sistemas Informáticos en Red (**ASIR**)
