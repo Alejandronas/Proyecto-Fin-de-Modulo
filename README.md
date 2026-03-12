@@ -34,7 +34,7 @@ WeatherApp permite al usuario buscar cualquier ciudad del mundo y consultar:
 
 ```
 Proyecto de PHP/
-├── controllers/                  # Controladores (patrón MVC)
+├── controllers/                  # Controladores 
 │   ├── ActualController.php      # Lógica del tiempo actual
 │   ├── BusquedaController.php    # Lógica de búsqueda de ciudad
 │   ├── HistorialController.php   # Lógica del historial
@@ -42,7 +42,7 @@ Proyecto de PHP/
 │   └── SemanaController.php      # Lógica de previsión semanal
 │
 ├── models/                       # Modelos y acceso a datos
-│   ├── clases/                   # Clases de datos (objetos)
+│   ├── clases/                   # Clases de datos 
 │   │   ├── Ciudad.php            # Clase Ciudad
 │   │   ├── TiempoActual.php      # Clase TiempoActual
 │   │   ├── TiempoDia.php         # Clase TiempoDia
@@ -52,9 +52,9 @@ Proyecto de PHP/
 │   ├── MeteoDAO.php              # CRUD de datos meteorológicos en BD
 │   └── WeatherAPI.php            # Comunicación con OpenWeatherMap API
 │
-├── views/                        # Vistas (HTML + PHP)
+├── views/                        # Vistas 
 │   ├── footeryheader/
-│   │   ├── header.php            # Cabecera común (Bootstrap, FA, Chart.js)
+│   │   ├── header.php            # Cabecera común (Bootstrap, Chart.js)
 │   │   └── footer.php            # Pie de página común
 │   ├── inicio.php                # Página de búsqueda
 │   ├── actual.php                # Vista del tiempo actual
@@ -63,19 +63,19 @@ Proyecto de PHP/
 │   └── historial.php             # Vista del historial de consultas
 │
 ├── db/
-│   ├── config.php                # Conexión a la base de datos (PDO)
+│   ├── config.php                # Conexión a la base de datos 
 │   └── weather.sql               # Script SQL de creación de tablas
 │
 ├── docker/
 │   ├── nginx/
 │   │   ├── Dockerfile            # Imagen personalizada de Nginx
-│   │   └── default.conf          # Configuración de Nginx + PHP-FPM
+│   │   └── default.conf          # Configuración de Nginx + PHP
 │   └── php/
 │       ├── Dockerfile            # Imagen de PHP con extensiones
 │       └── php.ini               # Configuración de PHP
 │
 ├── docker-compose.yml            # Orquestación de contenedores
-└── index.php                     # Punto de entrada (enrutador)
+└── index.php                     # Punto de entrada 
 ```
 
 ---
