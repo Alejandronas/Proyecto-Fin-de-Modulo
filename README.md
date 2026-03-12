@@ -47,14 +47,14 @@ Proyecto de PHP/
 │   │   ├── TiempoActual.php      # Clase TiempoActual
 │   │   ├── TiempoDia.php         # Clase TiempoDia
 │   │   └── TiempoHora.php        # Clase TiempoHora
-│   ├── CiudadDAO.php             # CRUD de ciudades en BD
-│   ├── ConsultaDAO.php           # CRUD de consultas en BD
-│   ├── MeteoDAO.php              # CRUD de datos meteorológicos en BD
+│   ├── CiudadDAO.php             # Ciudades en BD
+│   ├── ConsultaDAO.php           # Consultas en BD
+│   ├── MeteoDAO.php              # Datos meteorológicos en BD
 │   └── WeatherAPI.php            # Comunicación con OpenWeatherMap API
 │
 ├── views/                        # Vistas 
 │   ├── footeryheader/
-│   │   ├── header.php            # Cabecera común (Bootstrap, Chart.js)
+│   │   ├── header.php            # Cabecera comun (Bootstrap, Chart.js)
 │   │   └── footer.php            # Pie de página común
 │   ├── inicio.php                # Página de búsqueda
 │   ├── actual.php                # Vista del tiempo actual
